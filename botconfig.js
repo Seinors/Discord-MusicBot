@@ -1,5 +1,5 @@
 module.exports = {
-  Admins: ["UserID", "UserID"], //Admins of the bot
+  Admins: ["353267447337582594"], //Admins of the bot
   ExpressServer: true,//If you wanted to make the website run or not
   DefaultPrefix: process.env.Prefix || ">", //Default prefix, Server Admins can change the prefix
   Port: 3000, //Which port website gonna be hosted
@@ -20,9 +20,9 @@ module.exports = {
   //Lavalink
    Lavalink: {
     id: "Main",
-    host: "host name or IP",
-    port: port,
-    pass: "your password", 
+    host: "lava.sudhan.tech",
+    port: 1234,
+    pass: "CodingWithSudhan", 
     secure: false, // Set this to true if you're self-hosting lavalink on replit.
   },
 
